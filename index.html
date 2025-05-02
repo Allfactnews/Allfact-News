@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Allfact News</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #111;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    nav {
+      background-color: #222;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #00bcd4;
+    }
+    .hero {
+      background-image: url('https://source.unsplash.com/1200x400/?news');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+    }
+    .content {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .article {
+      background: #fff;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .article h2 {
+      color: #222;
+      margin-bottom: 0.5rem;
+    }
+    .article p {
+      line-height: 1.6;
+    }
+    footer {
+      background-color: #111;
+      color: #ccc;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Allfact News</h1>
+    <p>Your Source for Verified News & Honest Reporting</p>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Politics</a>
+    <a href="#">Education</a>
+    <a href="#">Youth</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+  <div class="hero"></div>
+  <section class="content">
+    <div class="article">
+      <h2>Breaking: Government Launches Youth Innovation Grant</h2>
+      <p>The federal government has announced a new grant scheme targeting young innovators across Nigeria. Applications open next week...</p>
+    </div>
+    <div class="article">
+      <h2>Opinion: The Future of Education in Nigeria</h2>
+      <p>With increasing calls for reform, how can Nigeria adapt its education system to meet global standards? Here's our take...</p>
+    </div>
+    <div class="article">
+      <h2>Tech: How Nigerian Startups Are Solving Local Problems</h2>
+      <p>From fintech to agrotech, local entrepreneurs are redefining Africa's tech landscape. Meet the minds behind the change...</p>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 Allfact News. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
